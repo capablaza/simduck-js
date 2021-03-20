@@ -11,9 +11,11 @@ function main() {
 }
 
 function actions(duck) {
-    duck.swim()
-    duck.quack()
     duck.display()
+    duck.swim()
+    duck.quack()    
+    duck.fly()
+    console.log('------------------')
 }
 
 

@@ -6,6 +6,9 @@ export default class Duck {
     swim() {
         console.log("I can swim!")
     }
+    fly() {
+        console.log("I can fly");
+    }
 }
 
 Duck.prototype.display = function () {
