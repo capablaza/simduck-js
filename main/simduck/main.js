@@ -13,8 +13,8 @@ function main() {
 function actions(duck) {
     duck.display()
     duck.swim()
-    duck.quack()    
-    duck.fly()
+    duck.performQuack()  
+    duck.performFly()
     console.log('------------------')
 }
 

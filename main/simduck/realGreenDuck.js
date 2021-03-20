@@ -1,13 +1,11 @@
 import Duck from "./duck";
+import FlyWithWings from "./flyWithWings";
+import Quack from "./quack";
 
-export default class RealGreenDuck extends Duck{
+export default class RealGreenDuck extends Duck {
 
-    fly() {
-        console.log("I can fly");
-    }
-
-    quack() {
-        console.log("I can do quack!");
+    constructor() {
+        super(new FlyWithWings(), new Quack())
     }
 
     display() {
