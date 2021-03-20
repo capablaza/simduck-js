@@ -8,6 +8,6 @@ export default class Duck {
     }
 }
 
-Duck.prototype.display = function(){
+Duck.prototype.display = function () {
     //TODO
 }

@@ -3,9 +3,18 @@ import RedHeadDuck from './redHeadDuck';
 import RubberDuck from './rubberDuck';
 
 function main() {
-    new RealGreenDuck().display()
-    new RedHeadDuck().display()
-    new RubberDuck().display()
+
+    actions(new RealGreenDuck())
+    actions(new RedHeadDuck())
+    actions(new RubberDuck())
+
 }
+
+function actions(duck) {
+    duck.swim()
+    duck.quack()
+    duck.display()
+}
+
 
 main();
