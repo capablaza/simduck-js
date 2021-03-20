@@ -16,6 +16,14 @@ export default class Duck {
         console.log("I can swim!")
     }
 
+    setFlyBehavior(behavior) {
+        this.flyBehavior = behavior;
+    }
+
+    setQuackBehavior(behavior) {
+        this.quackBehavior = behavior;
+    }
+
 }
 
 Duck.prototype.display = function () { }
